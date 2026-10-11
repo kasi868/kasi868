@@ -18,7 +18,7 @@
 <a href="https://www.linkedin.com/in/kasi-viswanath-anuboyina-036100214"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:kasiv931@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://github.com/kasi868"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<img src="https://komarev.com/ghpvc/?username=kasi868&style=for-the-badge&color=2C5364&label=PROFILE+VIEWS" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=kasi868&style=for-the-badge&color=2C5364&label=Profile%20views" alt="Profile views" />
 
 </div>
 
