@@ -185,7 +185,7 @@ A large-scale college management platform supporting academic and administrative
 
 <br /><br />
 
-**If something here looks useful or interesting, I'd be glad to hear from you.**
+**Open to full stack and mobile development roles. The fastest way to reach me is email or LinkedIn.**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=110&section=footer" alt="" width="100%" />
 
