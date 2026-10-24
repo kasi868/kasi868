@@ -50,34 +50,47 @@ I care about writing **clear, maintainable code**, handling **errors and edge ca
 
 ## ◆ What I Do
 
+<p><sub>Three roles, one engineer — I move between them depending on what the project needs, and I'm comfortable owning a feature from the database to the screen.</sub></p>
+
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>⚙️ Software Engineer</h3>
-      <sub>
-        • Debugging and root-cause analysis across frontend, backend, database and network layers<br/>
-        • Data consistency with transactions, row locking and idempotency<br/>
-        • Defensive error handling and input validation<br/>
-        • Clear separation of responsibilities between layers
-      </sub>
+      <img alt="Software Engineer" src="https://img.shields.io/badge/Software_Engineer-0f172a?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSIjZjg3MTcxIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHJlY3QgeD0iOCIgeT0iNiIgd2lkdGg9IjgiIGhlaWdodD0iMTQiIHJ4PSI0Ii8%2BPHBhdGggZD0iTTEyIDZWM004IDEwSDRNOCAxNkg0TTE2IDEwaDRNMTYgMTZoNE05IDNsMS41IDJNMTUgM2wtMS41IDIiLz48L3N2Zz4%3D" />
+      <p><sub><i>When something must be correct, reliable, or fixed</i></sub></p>
+      <ul>
+        <li><b>Root-cause debugging</b> across UI, API, database and network</li>
+        <li><b>Data consistency</b> with transactions, locking and idempotency</li>
+        <li><b>Error handling</b> and input validation by design</li>
+        <li><b>Maintainable code</b> with clear layer boundaries</li>
+      </ul>
+      <p><img alt="Python" src="https://img.shields.io/badge/Python-1e293b?style=flat-square&logo=python&logoColor=FFD43B" /> <img alt="Java" src="https://img.shields.io/badge/Java-1e293b?style=flat-square&logo=openjdk&logoColor=f89820" /> <img alt="SQL" src="https://img.shields.io/badge/SQL-1e293b?style=flat-square&logo=postgresql&logoColor=7dd3fc" /></p>
     </td>
     <td width="33%" valign="top">
-      <h3>🧩 Full Stack Developer</h3>
-      <sub>
-        • React.js interfaces backed by FastAPI REST services<br/>
-        • PostgreSQL models for inventory, billing and payment workflows<br/>
-        • Authentication, authorization and role-based access control<br/>
-        • Docker-based development environments
-      </sub>
+      <img alt="Full Stack Developer" src="https://img.shields.io/badge/Full_Stack_Developer-0f172a?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSIjYTViNGZjIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHJlY3QgeD0iOSIgeT0iMiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiLz48cmVjdCB4PSIyIiB5PSIxNiIgd2lkdGg9IjYiIGhlaWdodD0iNiIgcng9IjEiLz48cmVjdCB4PSIxNiIgeT0iMTYiIHdpZHRoPSI2IiBoZWlnaHQ9IjYiIHJ4PSIxIi8%2BPHBhdGggZD0iTTEyIDh2NE01IDE2di00aDE0djQiLz48L3N2Zz4%3D" />
+      <p><sub><i>When a feature spans the browser, the API and the database</i></sub></p>
+      <ul>
+        <li><b>React.js</b> interfaces on <b>FastAPI</b> REST services</li>
+        <li><b>PostgreSQL</b> models for inventory, billing and payments</li>
+        <li><b>Auth, RBAC</b> and scope-aware permissions</li>
+        <li><b>Docker</b>-based development environments</li>
+      </ul>
+      <p><img alt="React" src="https://img.shields.io/badge/React-1e293b?style=flat-square&logo=react&logoColor=61DAFB" /> <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-1e293b?style=flat-square&logo=fastapi&logoColor=22D3EE" /> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-1e293b?style=flat-square&logo=postgresql&logoColor=7dd3fc" /> <img alt="Docker" src="https://img.shields.io/badge/Docker-1e293b?style=flat-square&logo=docker&logoColor=2496ED" /></p>
     </td>
     <td width="33%" valign="top">
-      <h3>📱 Mobile Developer</h3>
-      <sub>
-        • React Native apps for Android and iOS<br/>
-        • Resumable chunked uploads with SHA-256 verification<br/>
-        • Persistent SQLite queues with background sync<br/>
-        • Android builds, foreground services and debugging
-      </sub>
+      <img alt="Mobile Developer" src="https://img.shields.io/badge/Mobile_Developer-0f172a?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHJlY3QgeD0iNiIgeT0iMiIgd2lkdGg9IjEyIiBoZWlnaHQ9IjIwIiByeD0iMiIvPjxwYXRoIGQ9Ik0xMSAxOGgyIi8%2BPC9zdmc%2B" />
+      <p><sub><i>When the app has to work on real phones and real networks</i></sub></p>
+      <ul>
+        <li><b>React Native</b> apps for Android and iOS</li>
+        <li><b>Resumable uploads</b> with SHA-256 verification</li>
+        <li><b>SQLite queues</b> with background sync and retry</li>
+        <li><b>Android builds</b> and foreground services</li>
+      </ul>
+      <p><img alt="React Native" src="https://img.shields.io/badge/React_Native-1e293b?style=flat-square&logo=react&logoColor=61DAFB" /> <img alt="SQLite" src="https://img.shields.io/badge/SQLite-1e293b?style=flat-square&logo=sqlite&logoColor=7dd3fc" /> <img alt="Android" src="https://img.shields.io/badge/Android-1e293b?style=flat-square&logo=android&logoColor=3DDC84" /></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center">
+      <sub><b>How the roles connect</b> &nbsp;—&nbsp; 📱 React Native / React UI &nbsp;→&nbsp; 🔌 FastAPI REST services &nbsp;→&nbsp; 🗄️ PostgreSQL / SQLite &nbsp;→&nbsp; 🧪 verified for failure paths</sub>
     </td>
   </tr>
 </table>
