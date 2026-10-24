@@ -360,25 +360,51 @@ flowchart LR
 
 ## ◆ Testing & Quality Mindset
 
+<p><sub>How I think about verifying the software I build — what has to hold true before a feature is done.</sub></p>
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>Backend</b><br/>
-      <sub>Validation and error-response paths · auth and permission checks · transaction and concurrency edge cases · positive, negative and boundary inputs</sub>
+      <img alt="Backend" src="https://img.shields.io/badge/Backend-0f172a?style=for-the-badge&logo=fastapi&logoColor=22D3EE" />
+      <p><sub><i>APIs, business logic and data integrity</i></sub></p>
+      <ul>
+        <li>✅ Request validation and clear error responses</li>
+        <li>🔐 Authentication and permission checks</li>
+        <li>🔁 Transaction and concurrency edge cases</li>
+        <li>🎯 Positive, negative and boundary inputs</li>
+      </ul>
     </td>
     <td width="50%" valign="top">
-      <b>Mobile</b><br/>
-      <sub>Network interruption and retry · upload cancel and resume · queue persistence across restarts · form validation · Android build verification</sub>
+      <img alt="Mobile" src="https://img.shields.io/badge/Mobile-0f172a?style=for-the-badge&logo=android&logoColor=3DDC84" />
+      <p><sub><i>Behaviour on real devices and real networks</i></sub></p>
+      <ul>
+        <li>📶 Network interruption, retry and recovery</li>
+        <li>⏯️ Upload cancel and resume</li>
+        <li>💾 Queue persistence across app restarts</li>
+        <li>🤖 Form validation and Android build checks</li>
+      </ul>
     </td>
   </tr>
   <tr>
-    <td valign="top">
-      <b>Web</b><br/>
-      <sub>Form validation and error states · API integration · auth flows · regression checks on existing features</sub>
+    <td width="50%" valign="top">
+      <img alt="Web" src="https://img.shields.io/badge/Web-0f172a?style=for-the-badge&logo=react&logoColor=61DAFB" />
+      <p><sub><i>What the user sees and submits</i></sub></p>
+      <ul>
+        <li>📝 Form validation and error states</li>
+        <li>🔌 API integration and loading / failure states</li>
+        <li>🔑 Login and access flows</li>
+        <li>♻️ Regression checks on existing features</li>
+      </ul>
     </td>
-    <td valign="top">
-      <b>End-to-end workflows</b><br/>
-      <sub>Checkout → payment → stock update · select → upload → recover → play · proposal → approval → offering</sub>
+    <td width="50%" valign="top">
+      <img alt="End-to-End Workflows" src="https://img.shields.io/badge/End--to--End_Workflows-0f172a?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSIjMzRkMzk5IiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTIxIDEyYTkgOSAwIDAgMS0xNSA2LjdMMyAxNiIvPjxwYXRoIGQ9Ik0zIDEyYTkgOSAwIDAgMSAxNS02LjdMMjEgOCIvPjxwYXRoIGQ9Ik0yMSAzdjVoLTVNMyAyMXYtNWg1Ii8%2BPC9zdmc%2B" />
+      <p><sub><i>Whole journeys across UI, API and database</i></sub></p>
+      <ul>
+        <li>🧾 <code>checkout → payment → stock update</code></li>
+        <li>📦 <code>select → upload → recover → play</code></li>
+        <li>🎓 <code>proposal → approval → offering</code></li>
+        <li>🛡️ Each flow checked for the failure path, not just the happy path</li>
+      </ul>
     </td>
   </tr>
 </table>
@@ -387,30 +413,34 @@ flowchart LR
 
 <table>
   <tr>
-    <td width="72%" valign="top">
-      <b>Full Stack Developer</b> · KRGY Infotech Pvt Ltd<br/>
-      <sub>
-        • Develop and maintain web and mobile apps with React.js, React Native, Python and FastAPI<br/>
-        • Integrate REST APIs with authentication, authorization, validation and error handling<br/>
-        • Backend workflows for inventory, billing, payments, reporting and RBAC<br/>
-        • Transactional data consistency, invoice generation, resumable uploads and background sync<br/>
-        • Troubleshoot issues across frontend, backend, database, network and mobile layers
-      </sub>
+    <td width="100%" valign="top">
+      <h3>💼 Full Stack Developer</h3>
+      <b>KRGY Infotech Pvt Ltd</b> &nbsp;·&nbsp; <sub>India</sub><br/>
+      <img alt="Current" src="https://img.shields.io/badge/Current-16a34a?style=flat-square" /> <img alt="Dec 2025 – Present" src="https://img.shields.io/badge/Dec_2025_%E2%80%93_Present-0e7490?style=flat-square" />
+      <p><img alt="React.js" src="https://img.shields.io/badge/React.js-1e293b?style=flat-square&logo=react&logoColor=61DAFB" /> <img alt="React Native" src="https://img.shields.io/badge/React_Native-1e293b?style=flat-square&logo=react&logoColor=61DAFB" /> <img alt="Python" src="https://img.shields.io/badge/Python-1e293b?style=flat-square&logo=python&logoColor=FFD43B" /> <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-1e293b?style=flat-square&logo=fastapi&logoColor=22D3EE" /> <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-1e293b?style=flat-square&logo=postgresql&logoColor=7dd3fc" /> <img alt="Docker" src="https://img.shields.io/badge/Docker-1e293b?style=flat-square&logo=docker&logoColor=2496ED" /></p>
+      <ul>
+        <li><b>Build and maintain</b> web and mobile applications with React.js, React Native, Python and FastAPI</li>
+        <li><b>Integrate REST APIs</b> with authentication, authorization, data validation and error handling</li>
+        <li><b>Backend workflows</b> for inventory management, billing, payment processing, reporting and RBAC</li>
+        <li><b>Data consistency</b> — transactional workflows, invoice generation, resumable file uploads and background sync</li>
+        <li><b>Troubleshoot</b> issues across frontend, backend, database, networking and mobile layers</li>
+      </ul>
     </td>
-    <td align="right" valign="top"><sub>Dec 2025 – Present</sub></td>
   </tr>
   <tr>
-    <td valign="top">
-      <b>Mobile Application Developer</b> · Maxzen Tech, Hyderabad<br/>
-      <sub>
-        • Built mobile features and reusable UI components with React Native and JavaScript<br/>
-        • Integrated REST APIs for authentication, data retrieval and backend communication<br/>
-        • Implemented form validation, screen navigation and error handling<br/>
-        • Tested and debugged features; resolved Android build issues in Android Studio<br/>
-        • Git and GitHub for version control
-      </sub>
+    <td width="100%" valign="top">
+      <h3>📱 Mobile Application Developer</h3>
+      <b>Maxzen Tech</b> &nbsp;·&nbsp; <sub>Hyderabad, India</sub><br/>
+      <img alt="Jun 2024 – Nov 2025" src="https://img.shields.io/badge/Jun_2024_%E2%80%93_Nov_2025-0e7490?style=flat-square" />
+      <p><img alt="React Native" src="https://img.shields.io/badge/React_Native-1e293b?style=flat-square&logo=react&logoColor=61DAFB" /> <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-1e293b?style=flat-square&logo=javascript&logoColor=F7DF1E" /> <img alt="Android Studio" src="https://img.shields.io/badge/Android_Studio-1e293b?style=flat-square&logo=androidstudio&logoColor=3DDC84" /> <img alt="Git" src="https://img.shields.io/badge/Git-1e293b?style=flat-square&logo=git&logoColor=F05032" /></p>
+      <ul>
+        <li><b>Mobile features</b> and reusable UI components with React Native and JavaScript</li>
+        <li><b>REST API integration</b> for authentication, data retrieval and backend communication</li>
+        <li><b>Form validation</b>, screen navigation and error handling</li>
+        <li><b>Testing and debugging</b> features; resolved Android build issues in Android Studio</li>
+        <li><b>Version control</b> with Git and GitHub</li>
+      </ul>
     </td>
-    <td align="right" valign="top"><sub>Jun 2024 – Nov 2025</sub></td>
   </tr>
 </table>
 
