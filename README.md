@@ -20,6 +20,32 @@
   focused on the parts that make software reliable: transactions, retries, validation, and the edge cases that break real apps.
 </p>
 
+## ◆ About Me
+
+I'm a **Full Stack Developer at KRGY Infotech**, where I work across the whole application stack — from **PostgreSQL** data models and **FastAPI** services to **React** and **React Native** interfaces, all running in **Docker**-based environments. Before that, I spent a year and a half at **Maxzen Tech** as a **Mobile Application Developer**, building React Native features, reusable UI components, and fixing Android build issues in Android Studio.
+
+Most of my work sits where things are most likely to go wrong:
+
+- **💳 Money and stock** — transaction-safe checkout with row locking, idempotency, document sequencing, payment validation and atomic inventory updates, so invoices, payments and inventory always agree.
+- **📶 Unreliable networks** — resumable chunked uploads with SHA-256 verification, persistent SQLite queues, retries and background sync, so large files finish uploading even when the connection doesn't cooperate.
+- **🔐 Who can do what** — authentication, role-based access control and scope-aware authorization, backed by audit trails.
+- **🐞 Bugs nobody can explain** — I troubleshoot across frontend, backend, database, network and mobile layers to find the root cause, not just the symptom.
+
+I care about writing **clear, maintainable code**, handling **errors and edge cases** deliberately, and thinking about how a feature should be **tested** before calling it done.
+
+<table>
+  <tr>
+    <td align="center" width="25%"><b>2+ years</b><br/><sub>professional experience</sub></td>
+    <td align="center" width="25%"><b>Web + Mobile</b><br/><sub>React · React Native</sub></td>
+    <td align="center" width="25%"><b>Backend</b><br/><sub>Python · FastAPI · REST</sub></td>
+    <td align="center" width="25%"><b>3 certifications</b><br/><sub>PCAP · AWS · SQL</sub></td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub>📍 Kakinada, Andhra Pradesh, India &nbsp;·&nbsp; 💬 Open to Software Engineer, Full Stack and Mobile Developer roles</sub>
+</p>
+
 <br/>
 
 ## ◆ What I Do
