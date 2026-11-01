@@ -411,6 +411,70 @@ flowchart LR
 
 **Repository:** [github.com/Development-2-product/AI-Assistant](https://github.com/Development-2-product/AI-Assistant)
 
+> **🎯 The problem**<br/>
+> When you're driving, in a meeting, or in an interview, a chat message or missed call can't wait, but a wrong reply to the wrong person is worse than no reply. An assistant that answers on your behalf has to be fast and helpful, and it must never agree to a payment, invent a commitment, or auto-send to someone you haven't approved.
+
+**🛠️ What I built**
+- An **Android app** (Kotlin, Jetpack Compose, Hilt, Room) that reads incoming WhatsApp notifications and Gmail, and handles missed calls
+- A **FastAPI backend** with a fast analysis model and a separate writer model that drafts replies in the sender's language
+- **Deterministic safety checks** around every model output: crisis-message override, money and commitment rule, reply length limits and prompt-injection fencing
+- **Per-contact reply rules** (auto, approval-first, or blocked) and an approval flow on the phone before anything unapproved is sent
+- **Authenticated API**: Firebase ID-token verification in production, a dev-only token for local testing, and rate limiting
+- **Commitment tracking and job-application tracking** from incoming mail, with date parsing that marks unclear dates for review instead of guessing
+
+**🧠 Engineering challenges → how I approached them**
+
+| Challenge | Approach |
+|---|---|
+| The model could draft a harmful or wrong reply | The AI only drafts; app policy decides whether anything is sent |
+| A message mentions a crisis | Crisis patterns are checked in code and override the model's output |
+| The model invents an amount or a promise ("confirmed", "I'll pay") | Amounts and commitment words in a reply must appear in the conversation, or the reply is neutralised |
+| Message text tries to break out of the prompt | Conversation text is fenced into a block that cannot close early |
+| The AI provider is overloaded or rate-limited | Transient errors are retried once, then the backend falls back to the next configured model; if all fail, it returns 503 without leaking provider details |
+| Replies in the wrong language or script | The latest message sets the reply language; script switches are rejected on the phone |
+| Auto-sending to people you haven't approved | Contact-level rules, including "always approve", are checked before automatic replies |
+| A job email says "next Tuesday" | Relative dates are flagged as ambiguous and never filled in |
+| Private data leaking through logs or errors | Diagnostics redact identifiers, and unexpected errors return a safe, correlated message |
+
+<details>
+<summary><b>📐 Message reply flow</b></summary>
+
+```mermaid
+flowchart LR
+    N[Notification or missed call] --> P{App policy<br/>contact rules}
+    P -- blocked / unknown --> Q[Ask for approval]
+    P -- allowed --> B[Backend /v1/messages/process]
+    B --> S{Safety checks<br/>crisis, money, length}
+    S -- fails --> F[Safe fallback reply]
+    S -- passes --> D[Draft in sender's language]
+    F --> R{Send rules}
+    D --> R
+    R -- auto-allowed --> U[Send after undo window]
+    R -- needs approval --> Q
+```
+
+</details>
+
+<details>
+<summary><b>🧪 Test scenarios this design must pass</b></summary>
+
+- A message that signals a crisis → no automated reply; the crisis response is used instead
+- Model output that adds an amount not in the conversation → reply is neutralised
+- Message text that tries to override the instructions → treated as plain conversation text
+- Ended conversation → no further reply is generated
+- Primary model overloaded → request falls back to the next model
+- All models down → 503 with no provider details in the response
+- Request without valid auth, or with a dev token in production → rejected
+- Oversized request → rejected before validation
+- Mixed-language message → reply follows the latest message's language
+- "Always approve" contact → no automatic reply is sent
+- Overnight allowed hours → respected on the phone
+- Relative date in a job email (e.g. "next week") → marked ambiguous, not invented
+- Rejected job application → tracked, and never shown as a celebration
+
+<sub>Several of these are covered by existing tests in the repository (backend pytest and Android unit tests). The rest are design checks, not a report of test results.</sub>
+</details>
+
 ---
 
 ## ◆ Testing & Quality Mindset
