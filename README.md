@@ -1,4 +1,11 @@
 <!-- Profile README for github.com/kasi868 -->
+<!--
+  REVIEW BEFORE PUBLISHING (comments only, not shown on GitHub):
+  - Verify these appear in real repos, or remove them: Java, TypeScript, Node.js, MySQL, Tailwind CSS, Microservices, Redis (ICMS).
+  - "Scenario" lists under project sections are design checklists, not executed test results. Keep the disclaimer lines.
+  - Add repo links for Gallery Hub and ICMS once the repository names are confirmed.
+-->
+
 
 <img width="100%" alt="Header banner: Kasi Viswanath Anuboyina, Software Engineer" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0b1220,50:0f2a44,100:0e7490&text=Kasi%20Viswanath%20Anuboyina&fontColor=e2e8f0&fontSize=36&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20Full%20Stack%20%E2%80%A2%20Mobile&descAlignY=58&descSize=16&animation=fadeIn" />
 
@@ -18,6 +25,10 @@
   <b>Software Engineer</b> with 2+ years building web and mobile applications.<br/>
   <b>React</b> and <b>React Native</b> on the front, <b>Python / FastAPI</b> services on the back, <b>PostgreSQL</b> underneath —<br/>
   focused on the parts that make software reliable: transactions, retries, validation, and the edge cases that break real apps.
+</p>
+
+<p align="center">
+  <b>🎯 Target roles:</b> Software Engineer · Full Stack Developer · Frontend Developer · Backend Developer · Software Developer · Mobile App Developer · Android Application Developer
 </p>
 
 ## ◆ About Me
@@ -154,6 +165,15 @@ I care about writing **clear, maintainable code**, handling **errors and edge ca
       <img alt="Debugging" src="https://img.shields.io/badge/Debugging-0f172a?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3Ryb2tlPSIjZjg3MTcxIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHJlY3QgeD0iOCIgeT0iNiIgd2lkdGg9IjgiIGhlaWdodD0iMTQiIHJ4PSI0Ii8%2BPHBhdGggZD0iTTEyIDZWM004IDEwSDRNOCAxNkg0TTE2IDEwaDRNMTYgMTZoNE05IDNsMS41IDJNMTUgM2wtMS41IDIiLz48L3N2Zz4%3D" />
     </td>
   </tr>
+  <tr>
+    <td><b>Practices</b></td>
+    <td>
+      <img alt="Git and GitHub" src="https://img.shields.io/badge/Git_%26_GitHub-0f172a?style=flat-square&logo=github&logoColor=white" />
+      <img alt="Docker" src="https://img.shields.io/badge/Docker-0f172a?style=flat-square&logo=docker&logoColor=2496ED" />
+      <img alt="Root-cause debugging" src="https://img.shields.io/badge/Root--cause_debugging-0f172a?style=flat-square" />
+      <img alt="Clean code" src="https://img.shields.io/badge/Clean_code-0f172a?style=flat-square" />
+    </td>
+  </tr>
 </table>
 
 ---
@@ -163,6 +183,8 @@ I care about writing **clear, maintainable code**, handling **errors and edge ca
 <!-- ───────────────────────── GALLERY HUB ───────────────────────── -->
 
 ### 📦 Gallery Hub — Mobile Media Backup App
+
+<!-- TODO: add repository link once the repo name is confirmed, e.g. <a href="https://github.com/kasi868/GALLERY_HUB_REPO">Repository</a> -->
 
 <sub>A React Native app for managing and backing up photos and videos on Android and iOS, with a resumable upload pipeline built for unreliable mobile networks.</sub>
 
@@ -311,6 +333,8 @@ sequenceDiagram
 <!-- ───────────────────────── ICMS ───────────────────────── -->
 
 ### 🎓 ICMS — Integrated College Management System
+
+<!-- TODO: add repository link once the repo name is confirmed -->
 
 <sub>A college management platform for academic and administrative operations, built around governance workflows, scoped permissions and auditability.</sub>
 
@@ -475,5 +499,15 @@ flowchart LR
 </p>
 
 <p align="center"><sub>Public-repo activity only — much of my professional work lives in private repositories.</sub></p>
+
+## ◆ Contact & Collaboration
+
+<p align="center">
+  📧 <a href="mailto:kasiv931@gmail.com">kasiv931@gmail.com</a> &nbsp;·&nbsp;
+  🔗 <a href="https://www.linkedin.com/in/kasi-viswanath-anuboyina-036100214/">LinkedIn</a> &nbsp;·&nbsp;
+  🐙 <a href="https://github.com/kasi868">GitHub</a>
+</p>
+
+<p align="center"><sub>Open to Software Engineer, Full Stack, Frontend, Backend and Mobile / Android roles. Feedback and code review on any project here are welcome — open an issue or a pull request.</sub></p>
 
 <img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&color=0:0e7490,50:0f2a44,100:0b1220" />
