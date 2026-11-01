@@ -22,9 +22,8 @@
 </p>
 
 <p align="center">
-  <b>Software Engineer</b> with 2+ years building web and mobile applications.<br/>
-  <b>React</b> and <b>React Native</b> on the front, <b>Python / FastAPI</b> services on the back, <b>PostgreSQL</b> underneath —<br/>
-  focused on the parts that make software reliable: transactions, retries, validation, and the edge cases that break real apps.
+  <b>Software Engineer</b> | Full Stack &amp; Mobile<br/>
+  <b>React</b> · <b>React Native</b> · <b>Kotlin</b> · <b>Python</b> · <b>FastAPI</b> · <b>PostgreSQL</b>
 </p>
 
 <p align="center">
@@ -33,7 +32,9 @@
 
 ## ◆ About Me
 
-I'm a **Full Stack Developer at KRGY Infotech**, where I work across the whole application stack — from **PostgreSQL** data models and **FastAPI** services to **React** and **React Native** interfaces, all running in **Docker**-based environments. Before that, I spent a year and a half at **Maxzen Tech** as a **Mobile Application Developer**, building React Native features, reusable UI components, and fixing Android build issues in Android Studio.
+Software Engineer with **2+ years** of experience building web, mobile, and backend applications. I work as a **Full Stack Developer at KRGY Infotech**, building **React.js** interfaces on **FastAPI** REST services with **PostgreSQL** data models. Previously, at **Maxzen Tech**, I developed **React Native** features and reusable UI components and resolved Android build issues. I built **IA Mode**, an AI-powered Android assistant written in **Kotlin** with **Jetpack Compose**, backed by a **FastAPI** service and the **Gemini API**, with automated tests and CI on **GitHub Actions**. I focus on reliable software: input validation, error handling, authentication, and designing features around their failure paths.
+
+**Core strengths:** Root-cause debugging · REST API integration · Authentication & authorization · PostgreSQL & database design · Android & React Native · Docker
 
 Most of my work sits where things are most likely to go wrong:
 
