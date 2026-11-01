@@ -395,6 +395,24 @@ flowchart LR
 
 ---
 
+### 🤖 Featured Project — IA Mode AI Assistant
+
+<sub>An AI-powered Android assistant that helps manage messages and missed-call replies while you're busy. It combines an Android application with a Python FastAPI backend and Gemini AI integration.</sub>
+
+**What it does**
+- Drafts replies to incoming WhatsApp messages and Gmail, in the sender's language
+- Writes SMS replies to missed calls, based on what the user is doing
+- Keeps the decision to send in app-side rules: the AI drafts, deterministic policy checks decide what is sent
+- Authenticated REST API with Firebase token verification in production
+
+**Stack:** Kotlin · Jetpack Compose · Hilt · Room · Retrofit · Python · FastAPI · Gemini API · Firebase Auth · Redis · REST APIs
+
+**Quality:** Backend pytest suite and Android unit tests, run on every push and pull request with GitHub Actions (dependency audit, unit tests, debug build and lint).
+
+**Repository:** [github.com/Development-2-product/AI-Assistant](https://github.com/Development-2-product/AI-Assistant)
+
+---
+
 ## ◆ Testing & Quality Mindset
 
 <p><sub>How I think about verifying the software I build — what has to hold true before a feature is done.</sub></p>
