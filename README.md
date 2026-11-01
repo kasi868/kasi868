@@ -26,10 +26,6 @@
   <b>React</b> · <b>React Native</b> · <b>Kotlin</b> · <b>Python</b> · <b>FastAPI</b> · <b>PostgreSQL</b>
 </p>
 
-<p align="center">
-  <b>🎯 Target roles:</b> Software Engineer · Full Stack Developer · Frontend Developer · Backend Developer · Software Developer · Mobile App Developer · Android Application Developer
-</p>
-
 ## ◆ About Me
 
 Software Engineer with **2+ years** of experience building web, mobile, and backend applications. I work as a **Full Stack Developer at KRGY Infotech**, building **React.js** interfaces on **FastAPI** REST services with **PostgreSQL** data models. Previously, at **Maxzen Tech**, I developed **React Native** features and reusable UI components and resolved Android build issues. I built **IA Mode**, an AI-powered Android assistant written in **Kotlin** with **Jetpack Compose**, backed by a **FastAPI** service and the **Gemini API**, with automated tests and CI on **GitHub Actions**. I focus on reliable software: input validation, error handling, authentication, and designing features around their failure paths.
